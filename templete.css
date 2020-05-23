@@ -85,7 +85,7 @@
 /* Color common */
 .keyboard-body-area,
 .tab.in-keyboard-header-area {
-    background_color: #000000;
+    background_color: #BASE_COLOUR;
     background_shape: rectangle;
     background_corner_radius_top_left: 10;
     background_corner_radius_top_right: 10;
@@ -96,7 +96,7 @@
 .candidates-area,
 .candidates-area.expanded,
 .popup {
-    background_color: #212121;
+    background_color: #HEADER_COLOUR;
     background_shape: rectangle;
     background_corner_radius: 0;
 }
