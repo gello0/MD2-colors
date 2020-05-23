@@ -1,5 +1,6 @@
-@def color_header #HEADER;
-@def color_base #BASE;
+/* This tepmplete contains HEADER_COLOUR, BASE_COLOUR, ACCENT and SECONDARY_ACCENT Replace them to make your own theme */
+@def color_header #HEADER_COLOUR;
+@def color_base #BASE_COLOUR;
 @def color_icon_action #ACCENT;
 /* This value is not used for action key background, since it is special on material theme. */
 @def color_state_action_pressed #ACCENT;
@@ -97,7 +98,7 @@
 .popup {
     background_color: #212121;
     background_shape: rectangle;
-    background_corner_radius: 10;
+    background_corner_radius: 0;
 }
 .label,
 .label.for-dashboard-key,
